@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.text-content {
+  max-width: 50%; /* Limit the width of the text section */
+}
+
+h1 {
+  font-size: 48px; /* Adjust size as needed */
+  line-height: 1.2;
+}
+
+p {
+  margin: 20px 0;
+}
+
+.shop-button {
+  background-color: #FF4F00; /* Button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shop-button:hover {
+  background-color: #FF3300; /* Change color on hover */
+}
+
+.image-container {
+  max-width: 50%; /* Limit the width of the image section */
+}
+
+.image-container img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+}

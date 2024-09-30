@@ -1,0 +1,26 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Set height as needed */
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 1s ease-in-out; /* Smooth transition */
+}
+
+.slide-image {
+  height: 80%; /* Adjust height for portrait images */
+  width: auto; /* Maintain aspect ratio */
+  max-width: 90%; /* Maximum width of the image */
+  object-fit: cover; /* Cover the container */
+  border-radius: 8px; /* Optional: Add some border-radius for aesthetics */
+}
